@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09B6C4F31DAE4F8B00E9B4AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B6C4F21DAE4F8B00E9B4AD /* main.m */; };
+		09B6C4FB1DAE507800E9B4AD /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B6C4FA1DAE507800E9B4AD /* Course.m */; };
+		09B6C4FE1DAE533A00E9B4AD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B6C4FD1DAE533A00E9B4AD /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		09B6C4EF1DAE4F8B00E9B4AD /* 课程类的设计 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "课程类的设计"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B6C4F21DAE4F8B00E9B4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B6C4F91DAE507800E9B4AD /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		09B6C4FA1DAE507800E9B4AD /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		09B6C4FC1DAE533A00E9B4AD /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		09B6C4FD1DAE533A00E9B4AD /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				09B6C4F21DAE4F8B00E9B4AD /* main.m */,
+				09B6C4FC1DAE533A00E9B4AD /* Student.h */,
+				09B6C4FD1DAE533A00E9B4AD /* Student.m */,
+				09B6C4F91DAE507800E9B4AD /* Course.h */,
+				09B6C4FA1DAE507800E9B4AD /* Course.m */,
 			);
 			path = "课程类的设计";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B6C4FB1DAE507800E9B4AD /* Course.m in Sources */,
 				09B6C4F31DAE4F8B00E9B4AD /* main.m in Sources */,
+				09B6C4FE1DAE533A00E9B4AD /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
